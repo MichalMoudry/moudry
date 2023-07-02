@@ -1,2 +1,3 @@
-# personal-website
-Repository with my personal website.
+# michalmoudry.github.io
+
+This is a repository for my personal website.
