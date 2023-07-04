@@ -4,6 +4,7 @@
 	import IconHeader from "$lib/components/molecules/icon_header.svelte";
 	import WorkExpListItem from "$lib/components/organisms/work_exp_list_item.svelte";
 	import OssContributionListItem from "$lib/components/organisms/oss_contribution_list_item.svelte";
+	import IconButton from "$lib/components/molecules/icon_button.svelte";
 </script>
 
 <Card>
@@ -46,20 +47,20 @@
 	<IconHeader icon="sun" text="Skills" />
 	<div class="grid grid-rows-1 grid-cols-2">
 		<ul>
-			<li>C#</li>
-			<li>XAML</li>
-			<li>UWP</li>
-			<li>EF Core</li>
-			<li>ReactJS</li>
-			<li>Wordpress</li>
+			<li class="border-b pb-1">C#</li>
+			<li class="border-b py-1">XAML</li>
+			<li class="border-b py-1">UWP</li>
+			<li class="border-b py-1">EF Core</li>
+			<li class="border-b py-1">ReactJS</li>
+			<li class="pt-1">Wordpress</li>
 		</ul>
 		<ul>
-			<li>Python</li>
-			<li>PHP</li>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>UML</li>
-			<li>Power BI</li>
+			<li class="border-b pb-1">Python</li>
+			<li class="border-b py-1">PHP</li>
+			<li class="border-b py-1">HTML</li>
+			<li class="border-b py-1">CSS</li>
+			<li class="border-b py-1">UML</li>
+			<li class="pt-1">Power BI</li>
 		</ul>
 	</div>
 	<!--<IconButton classes="mt-4 w-full" content="More skills" placement={1} />-->
@@ -68,7 +69,11 @@
 <Card classes="mt-4">
 	<IconHeader icon="lightbulb" text="Open source contributions" />
 
-	<OssContributionListItem name="Ambie" url="https://github.com/jenius-apps/ambie" description="A modern Windows app that plays soothing tones to help you be healthier, happier, and more relaxed." />
+	<OssContributionListItem
+		name="Ambie"
+		url="https://github.com/jenius-apps/ambie"
+		description="A modern Windows app that plays soothing tones to help you be healthier, happier, and more relaxed."
+	/>
 </Card>
 
 <!--

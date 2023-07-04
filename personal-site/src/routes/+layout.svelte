@@ -19,5 +19,9 @@
 </main>
 
 <footer class="bg-primary-300 p-4 w-full flex justify-center">
-	<p>Powered by <Link url="https://github.com/iconic/open-iconic" title="Open Iconic" content="Open Iconic" /></p>
+	<p>
+		Powered by
+		<Link url="https://github.com/iconic/open-iconic" title="Open Iconic" content="Open Iconic" />,
+		<Link url="https://kit.svelte.dev" title="SvelteKit" content="SvelteKit" />
+	</p>
 </footer>
