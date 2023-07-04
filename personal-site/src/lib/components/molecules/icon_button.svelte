@@ -16,14 +16,19 @@
      * @type {number}
      */
     export let placement;
+
+    /**
+     * @type {String}
+     */
+    export let icon;
 </script>
 
 <Button classes="{classes}">
     {#if placement === 0}
-        <Icon icon="chevron-right" />
+        <Icon icon={icon} />
         <span>{content}</span>
     {:else if placement === 1}
         <span>{content}</span>
-        <Icon icon="chevron-right" />
+        <Icon icon={icon} />
     {/if}
 </Button>

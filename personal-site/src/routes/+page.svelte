@@ -5,6 +5,7 @@
 	import WorkExpListItem from "$lib/components/organisms/work_exp_list_item.svelte";
 	import OssContributionListItem from "$lib/components/organisms/oss_contribution_list_item.svelte";
 	import IconButton from "$lib/components/molecules/icon_button.svelte";
+	import LinkIconButton from "$lib/components/organisms/link_icon_button.svelte";
 </script>
 
 <Card>
@@ -63,7 +64,10 @@
 			<li class="pt-1">Power BI</li>
 		</ul>
 	</div>
-	<!--<IconButton classes="mt-4 w-full" content="More skills" placement={1} />-->
+	<!--
+		<IconButton classes="mt-4 w-full" icon="chevron-right" content="More skills" placement={1} />
+		<LinkIconButton url="./skills" icon="chevron-right" content="More skills" />
+	-->
 </Card>
 
 <Card classes="mt-4">
