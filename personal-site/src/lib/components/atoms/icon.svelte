@@ -10,4 +10,4 @@
     export let classes = "";
 </script>
 
-<span class="oi {classes} text-primary-400" data-glyph="{icon}"></span>
+<span class="oi {classes} text-primary-300" data-glyph="{icon}"></span>

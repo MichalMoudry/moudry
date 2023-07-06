@@ -64,10 +64,8 @@
 			<li class="pt-1">Power BI</li>
 		</ul>
 	</div>
-	<!--
-		<IconButton classes="mt-4 w-full" icon="chevron-right" content="More skills" placement={1} />
-		<LinkIconButton url="./skills" icon="chevron-right" content="More skills" />
-	-->
+	
+	<LinkIconButton url="./skills" icon="chevron-right" content="More skills" classes="mt-4 w-full" />
 </Card>
 
 <Card classes="mt-4">

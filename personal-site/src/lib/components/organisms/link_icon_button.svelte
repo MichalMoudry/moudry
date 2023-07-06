@@ -20,8 +20,13 @@
      * @type {String}
      */
     export let url;
+
+    /**
+     * @type {String}
+     */
+    export let classes = "";
 </script>
 
-<a href={url} class="w-full">
-    <IconButton icon={icon} content={content} placement={placement} />
+<a href={url} title="Link to {content}">
+    <IconButton icon={icon} content={content} placement={placement} classes={classes} />
 </a>

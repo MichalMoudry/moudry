@@ -21,9 +21,14 @@
      * @type {String}
      */
     export let icon;
+
+    /**
+     * @type {(() => void)?}
+     */
+    export let onClick = null;
 </script>
 
-<Button classes="{classes}">
+<Button classes="{classes}" onClick={onClick}>
     {#if placement === 0}
         <Icon icon={icon} />
         <span>{content}</span>
