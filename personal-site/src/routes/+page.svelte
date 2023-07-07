@@ -4,7 +4,6 @@
 	import IconHeader from "$lib/components/molecules/icon_header.svelte";
 	import WorkExpListItem from "$lib/components/organisms/work_exp_list_item.svelte";
 	import OssContributionListItem from "$lib/components/organisms/oss_contribution_list_item.svelte";
-	import IconButton from "$lib/components/molecules/icon_button.svelte";
 	import LinkIconButton from "$lib/components/organisms/link_icon_button.svelte";
 </script>
 

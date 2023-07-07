@@ -4,6 +4,27 @@
 	import '../app.css';
 </script>
 
+<main class="p-4 min-h-screen flex justify-center">
+	<div class="grid container sm:grid-cols-1 sm:grid-rows-2 md:grid-cols-3 md:grid-rows-1 place-items-start gap-4">
+		<div>
+			<ProfileInformation />
+		</div>
+		
+		<div class="md:col-span-2 w-full">
+			<slot />
+		</div>
+	</div>
+</main>
+
+<footer class="bg-primary-300 p-4 w-full flex justify-center">
+	<p>
+		Powered by
+		<Link url="https://github.com/iconic/open-iconic" title="Open Iconic" content="Open Iconic" />,
+		<Link url="https://kit.svelte.dev" title="SvelteKit" content="SvelteKit" />
+	</p>
+</footer>
+
+<!--
 <main class="bg-slate-100 h-full p-4">
 	<div class="flex justify-center">
 		<div class="grid sm:grid-cols-1 sm:grid-rows-2 md:grid-cols-2 md:grid-rows-1 gap-4 sm:w-full md:max-w-3xl">
@@ -17,11 +38,4 @@
 		</div>
 	</div>
 </main>
-
-<footer class="bg-primary-300 p-4 w-full flex justify-center">
-	<p>
-		Powered by
-		<Link url="https://github.com/iconic/open-iconic" title="Open Iconic" content="Open Iconic" />,
-		<Link url="https://kit.svelte.dev" title="SvelteKit" content="SvelteKit" />
-	</p>
-</footer>
+-->
