@@ -25,8 +25,13 @@
      * @type {String}
      */
     export let classes = "";
+
+    /**
+     * @type {String}
+     */
+    export let title;
 </script>
 
 <a href={url} title="Link to {content}">
-    <IconButton icon={icon} content={content} placement={placement} classes={classes} />
+    <IconButton icon={icon} content={content} placement={placement} classes={classes} title={title} />
 </a>

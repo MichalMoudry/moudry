@@ -8,6 +8,13 @@
      * @type {String}
      */
     export let classes = "";
+
+    /**
+     * @type {boolean}
+     */
+    export let isPrimaryTheme = true;
+
+    let theme = isPrimaryTheme ? "text-primary-300" : "";
 </script>
 
-<span class="oi {classes} text-primary-300" data-glyph="{icon}"></span>
+<span class="oi {classes} {theme}" data-glyph="{icon}"></span>

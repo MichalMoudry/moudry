@@ -26,14 +26,19 @@
      * @type {(() => void)?}
      */
     export let onClick = null;
+
+    /**
+     * @type {String}
+     */
+    export let title;
 </script>
 
-<Button classes="{classes}" onClick={onClick}>
+<Button classes="{classes} hover:text-white" onClick={onClick} title={title}>
     {#if placement === 0}
-        <Icon icon={icon} />
+        <Icon icon={icon} isPrimaryTheme={false} />
         <span>{content}</span>
     {:else if placement === 1}
         <span>{content}</span>
-        <Icon icon={icon} />
+        <Icon icon={icon} isPrimaryTheme={false} />
     {/if}
 </Button>

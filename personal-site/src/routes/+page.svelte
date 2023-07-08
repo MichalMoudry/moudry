@@ -16,7 +16,7 @@
 		employer="IBM, Czech Republic"
 		startDate="Jun 2020"
 		endDate="Aug 2021"
-		description="Working with an ECM system and its separate system for document digitalization (Datacap). Part of this work included development of a COM library for integrating Datacap with the ECM system through SOAP API."
+		description="Working with an ECM system and its separate system for document digitalization (Datacap). Part of this work included development of a COM library for integrating Datacap with the ECM system through a SOAP API."
 	/>
 	<hr class="my-4" />
 	<WorkExpListItem
@@ -24,7 +24,7 @@
 		employer="Zettabyte IT, London"
 		startDate="Feb 2017"
 		endDate="Feb 2017"
-		description="Working in a computer repair shop, where my primary responsibility was to repair computers. Additionally, I contributed to their web application, that was written in PHP."
+		description="Working in a computer repair shop, where my primary responsibility was to repair computers. Additionally, I contributed to their internal web application, that was written in PHP language."
 	/>
 </Card>
 
@@ -64,7 +64,7 @@
 		</ul>
 	</div>
 	
-	<LinkIconButton url="./skills" icon="chevron-right" content="More skills" classes="mt-4 w-full" />
+	<LinkIconButton url="./skills" icon="chevron-right" content="More skills" classes="mt-4 w-full" title="View skills page" />
 </Card>
 
 <Card classes="mt-4">
@@ -75,13 +75,20 @@
 		url="https://github.com/jenius-apps/ambie"
 		description="A modern Windows app that plays soothing tones to help you be healthier, happier, and more relaxed."
 	/>
+
+	<hr class="my-4" />
+
+	<OssContributionListItem
+		name="Nunit - docs"
+		url=""
+		description="."
+	/>
 </Card>
 
-<!--
 <Card classes="mt-4">
 	<IconHeader icon="document" text="Certificates" />
+	<LinkIconButton url="./certificates" content="View certificates" title="" icon="chevron-right" />
 </Card>
--->
 
 <Card classes="mt-4">
 	<IconHeader icon="globe" text="Languages" />

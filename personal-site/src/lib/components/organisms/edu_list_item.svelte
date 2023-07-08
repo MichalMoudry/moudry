@@ -26,7 +26,7 @@
 <div>
     <div class="flex justify-between items-center">
         <LargeBoldText text={name} />
-        <DropDownButton>
+        <DropDownButton title="View menu">
 
         </DropDownButton>
     </div>
