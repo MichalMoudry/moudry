@@ -27,7 +27,8 @@
     <div class="flex justify-between items-center">
         <LargeBoldText text={name} />
         <DropDownButton title="View menu">
-
+            <a href="./" title="Test 1">Test 1</a>
+            <a href="./" title="Test 2">Test 2</a>
         </DropDownButton>
     </div>
     <DateRangeDisplay startDate={startDate} endDate={endDate} />

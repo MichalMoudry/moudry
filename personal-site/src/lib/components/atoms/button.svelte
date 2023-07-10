@@ -18,6 +18,13 @@
      * @type {String}
      */
     export let title;
+
+    /**
+     * @type {String?}
+     */
+    export let id = null;
+
+    const internalId = id ?? "";
 </script>
 
 <button class="border-primary-300 border rounded py-1 px-2 {classes} hover:bg-primary-400" on:click={onClick} title={title}>
