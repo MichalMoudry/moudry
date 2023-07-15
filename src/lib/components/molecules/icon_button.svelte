@@ -31,6 +31,11 @@
      * @type {String}
      */
     export let title;
+
+    /**
+     * @type {String?}
+     */
+    export let id = null;
 </script>
 
 <Button classes="{classes} hover:text-white" onClick={onClick} title={title}>
