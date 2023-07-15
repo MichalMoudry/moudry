@@ -38,7 +38,7 @@
     export let id = null;
 </script>
 
-<Button classes="{classes} hover:text-white" onClick={onClick} title={title}>
+<Button classes="{classes} hover:text-white" onClick={onClick} title={title} id={id}>
     {#if placement === 0}
         <Icon icon={icon} isPrimaryTheme={false} />
         <span>{content}</span>

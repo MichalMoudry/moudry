@@ -19,7 +19,7 @@
             <Icon icon="link-intact" classes="me-2 text-xl" />
             <LargeBoldText text="Other links" />
         </p>
-        <div class="flex flex-col">
+        <div class="flex flex-col mt-1">
             <Link url="https://linkedin.com/in/michal-moudry/" title="LinkedIn" content="LinkedIn" classes="p-2 hover:bg-primary-300 rounded mt-2" />
             <Link url="https://twitter.com/MichalMoudry" title="Twitter" content="Twitter" classes="p-2 hover:bg-primary-300 rounded mt-2" />
             <Link url="https://github.com/MichalMoudry" title="GitHub" content="GitHub" classes="p-2 hover:bg-primary-300 rounded mt-2" />

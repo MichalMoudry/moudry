@@ -18,17 +18,18 @@
      */
     export let endDate;
 
-    function displayDrowdown() {
-        alert("test");
-    }
+    /**
+     * @type {String}
+     */
+    export let id;
 </script>
 
-<div>
+<div id="{id}">
     <div class="flex justify-between items-center">
         <LargeBoldText text={name} />
-        <DropDownButton title="View menu">
-            <a href="./" title="Test 1">Test 1</a>
-            <a href="./" title="Test 2">Test 2</a>
+        <DropDownButton title="View menu" buttonId="{id}_dropdown">
+            <a href="./" title="Test 1" class="block p-4 text-sm hover:bg-primary-300">School site</a>
+            <a href="./" title="Test 2" class="block p-4 text-sm hover:bg-primary-300">More details</a>
         </DropDownButton>
     </div>
     <DateRangeDisplay startDate={startDate} endDate={endDate} />
