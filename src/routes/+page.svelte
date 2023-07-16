@@ -1,15 +1,19 @@
 <script>
-	import Card from "$lib/components/atoms/card.svelte";
-	import EduListItem from "$lib/components/organisms/edu_list_item.svelte";
-	import IconHeader from "$lib/components/molecules/icon_header.svelte";
-	import WorkExpListItem from "$lib/components/organisms/work_exp_list_item.svelte";
-	import OssContributionListItem from "$lib/components/organisms/oss_contribution_list_item.svelte";
-	import LinkIconButton from "$lib/components/organisms/link_icon_button.svelte";
+	import Card from '$lib/components/atoms/card.svelte';
+	import EduListItem from '$lib/components/organisms/edu_list_item.svelte';
+	import IconHeader from '$lib/components/molecules/icon_header.svelte';
+	import WorkExpListItem from '$lib/components/organisms/work_exp_list_item.svelte';
+	import OssContributionListItem from '$lib/components/organisms/oss_contribution_list_item.svelte';
+	import LinkIconButton from '$lib/components/organisms/link_icon_button.svelte';
 </script>
 
 <Card>
 	<IconHeader icon="briefcase" text="Work Experience" />
-	<WorkExpListItem name=".NET Developer" employer="CN Group CZ, Czech Republic" startDate="Jul 2022" />
+	<WorkExpListItem
+		name=".NET Developer"
+		employer="CN Group CZ, Czech Republic"
+		startDate="Jul 2022"
+	/>
 	<hr class="my-4" />
 	<WorkExpListItem
 		name="Technology Support Administrator"
@@ -30,16 +34,36 @@
 
 <Card classes="mt-4">
 	<IconHeader icon="monitor" text="Education" />
-	<EduListItem name="Vysoká škola ekonomická v Praze" startDate="2021" endDate="2023" id="vse2" url="vse.cz">
+	<EduListItem
+		name="Vysoká škola ekonomická v Praze"
+		startDate="2021"
+		endDate="2023"
+		id="vse2"
+		url="vse.cz"
+	>
 		<p>Two and a half year study of information systems and technologies.</p>
 	</EduListItem>
 	<hr class="my-4" />
-	<EduListItem name="Vysoká škola ekonomická v Praze" startDate="2018" endDate="2021" id="vse1" url="vse.cz">
+	<EduListItem
+		name="Vysoká škola ekonomická v Praze"
+		startDate="2018"
+		endDate="2021"
+		id="vse1"
+		url="vse.cz"
+	>
 		<p>Three-year study of applied informatics.</p>
 	</EduListItem>
 	<hr class="my-4" />
-	<EduListItem name="Střední průmyslová škola na Proseku" startDate="2014" endDate="2018" id="sps" url="sps-prosek.cz">
-		<p>Four-year study of information technology and computer science, ended with a graduation exam.</p>
+	<EduListItem
+		name="Střední průmyslová škola na Proseku"
+		startDate="2014"
+		endDate="2018"
+		id="sps"
+		url="sps-prosek.cz"
+	>
+		<p>
+			Four-year study of information technology and computer science, ended with a graduation exam.
+		</p>
 	</EduListItem>
 </Card>
 
@@ -63,8 +87,14 @@
 			<li class="pt-1">Power BI</li>
 		</ul>
 	</div>
-	
-	<LinkIconButton url="./skills" icon="chevron-right" content="More skills" classes="mt-4 w-full" title="View skills page" />
+
+	<LinkIconButton
+		url="./skills"
+		icon="chevron-right"
+		content="More skills"
+		classes="mt-4 w-full"
+		title="View skills page"
+	/>
 </Card>
 
 <Card classes="mt-4">
@@ -78,11 +108,7 @@
 
 	<hr class="my-4" />
 
-	<OssContributionListItem
-		name="Nunit - docs"
-		url=""
-		description="."
-	/>
+	<OssContributionListItem name="Nunit - docs" url="" description="." />
 </Card>
 
 <Card classes="mt-4">
