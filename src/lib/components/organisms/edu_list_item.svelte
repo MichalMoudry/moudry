@@ -22,14 +22,19 @@
      * @type {String}
      */
     export let id;
+
+    /**
+     * @type {String}
+     */
+    export let url;
 </script>
 
 <div id="{id}">
     <div class="flex justify-between items-center">
         <LargeBoldText text={name} />
         <DropDownButton title="View menu" buttonId="{id}_dropdown">
-            <a href="./" title="Test 1" class="block p-4 text-sm hover:bg-primary-300">School site</a>
-            <a href="./" title="Test 2" class="block p-4 text-sm hover:bg-primary-300">More details</a>
+            <a href="https://www.{url}" title="School site" class="block py-2 px-3 hover:bg-primary-300">School site</a>
+            <a href="./education/{id}" title="Test 2" class="block py-2 px-3 hover:bg-primary-300">More details</a>
         </DropDownButton>
     </div>
     <DateRangeDisplay startDate={startDate} endDate={endDate} />

@@ -5,12 +5,12 @@
 </script>
 
 <main class="p-4 min-h-screen flex justify-center">
-	<div class="grid container sm:grid-cols-1 sm:grid-rows-2 md:grid-cols-3 md:grid-rows-1 place-items-start gap-4">
+	<div class="grid container gap-4 sm:grid-cols-1 md:grid-cols-3">
 		<div>
 			<ProfileInformation />
 		</div>
 		
-		<div class="md:col-span-2 w-full">
+		<div class="w-full col-span-2 sm:col-span-1 md:col-span-2">
 			<slot />
 		</div>
 	</div>
@@ -19,23 +19,7 @@
 <footer class="bg-primary-300 p-4 w-full flex justify-center">
 	<p>
 		Powered by
-		<Link url="https://github.com/iconic/open-iconic" title="Open Iconic" content="Open Iconic" />,
+		<Link url="https://github.com/iconic/open-iconic" title="Open Iconic" content="Open Iconic" /> and
 		<Link url="https://kit.svelte.dev" title="SvelteKit" content="SvelteKit" />
 	</p>
 </footer>
-
-<!--
-<main class="bg-slate-100 h-full p-4">
-	<div class="flex justify-center">
-		<div class="grid sm:grid-cols-1 sm:grid-rows-2 md:grid-cols-2 md:grid-rows-1 gap-4 sm:w-full md:max-w-3xl">
-			<div class="lg:max-w-sm">
-				<ProfileInformation />
-			</div>
-
-			<div class="lg:max-w-3xl">
-				<slot />
-			</div>
-		</div>
-	</div>
-</main>
--->

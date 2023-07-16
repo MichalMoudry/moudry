@@ -30,15 +30,15 @@
 
 <Card classes="mt-4">
 	<IconHeader icon="monitor" text="Education" />
-	<EduListItem name="Vysoká škola ekonomická v Praze" startDate="2021" endDate="2023" id="vse2">
+	<EduListItem name="Vysoká škola ekonomická v Praze" startDate="2021" endDate="2023" id="vse2" url="vse.cz">
 		<p>Two and a half year study of information systems and technologies.</p>
 	</EduListItem>
 	<hr class="my-4" />
-	<EduListItem name="Vysoká škola ekonomická v Praze" startDate="2018" endDate="2021" id="vse1">
+	<EduListItem name="Vysoká škola ekonomická v Praze" startDate="2018" endDate="2021" id="vse1" url="vse.cz">
 		<p>Three-year study of applied informatics.</p>
 	</EduListItem>
 	<hr class="my-4" />
-	<EduListItem name="Střední průmyslová škola na Proseku" startDate="2014" endDate="2018" id="sps">
+	<EduListItem name="Střední průmyslová škola na Proseku" startDate="2014" endDate="2018" id="sps" url="sps-prosek.cz">
 		<p>Four-year study of information technology and computer science, ended with a graduation exam.</p>
 	</EduListItem>
 </Card>
