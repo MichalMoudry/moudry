@@ -36,9 +36,6 @@
 			<a href="https://www.{url}" title="School site" class="block py-2 px-3 hover:bg-primary-300"
 				>School site</a
 			>
-			<a href="./education/{id}" title="Test 2" class="block py-2 px-3 hover:bg-primary-300"
-				>More details</a
-			>
 		</DropDownButton>
 	</div>
 	<DateRangeDisplay {startDate} {endDate} />

@@ -112,11 +112,6 @@
 </Card>
 
 <Card classes="mt-4">
-	<IconHeader icon="document" text="Certificates" />
-	<LinkIconButton url="./certificates" content="View certificates" title="" icon="chevron-right" />
-</Card>
-
-<Card classes="mt-4">
 	<IconHeader icon="globe" text="Languages" />
 
 	<p class="font-bold">Czech</p>
