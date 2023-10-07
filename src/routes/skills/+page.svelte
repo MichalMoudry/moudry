@@ -39,12 +39,16 @@
 				<td class="border p-2">Python</td>
 			</tr>
 			<tr>
+				<td class="border p-2">Go</td>
 				<td class="border p-2">PHP</td>
+			</tr>
+			<tr>
+				<td class="border p-2">LINQ</td>
 				<td class="border p-2">JavaScript</td>
 			</tr>
 			<tr>
 				<td class="border p-2">SQL</td>
-				<td class="border p-2">Xamarin</td>
+				<td class="border p-2">Xamarin.Forms</td>
 			</tr>
 			<tr>
 				<td class="border p-2">HTML</td>
@@ -71,16 +75,12 @@
 				<td class="border p-2">Microsoft Excel</td>
 			</tr>
 			<tr>
-				<td class="border p-2">LINQ</td>
+				<td class="border p-2">Wordpress</td>
 				<td class="border p-2">XML</td>
 			</tr>
 			<tr>
 				<td class="border p-2">EF Core</td>
 				<td class="border p-2">Linux</td>
-			</tr>
-			<tr>
-				<td class="border p-2">Wordpress</td>
-				<td class="border p-2">MS Visio</td>
 			</tr>
 			<!--
                 <tr>
