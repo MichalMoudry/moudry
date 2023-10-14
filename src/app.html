@@ -9,6 +9,20 @@
 		/>
 		<meta name="theme-color" content="#5C6BC0" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link
+			rel="preload"
+			href="%sveltekit.assets%/Mona-Sans.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<link
+			rel="preload"
+			href="%sveltekit.assets%/Hubot-Sans.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
 		<meta name="viewport" content="width=device-width" />
 		<link
 			rel="stylesheet"
@@ -20,6 +34,6 @@
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover" class="bg-slate-100">
-		<div id="body-container" class="font-mono">%sveltekit.body%</div>
+		<div id="body-container">%sveltekit.body%</div>
 	</body>
 </html>

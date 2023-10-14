@@ -5,7 +5,7 @@
 </script>
 
 <main class="p-4 min-h-screen flex justify-center">
-	<div class="grid container gap-4 sm:grid-cols-1 md:grid-cols-3">
+	<div class="grid container gap-4 grid-cols-1 md:grid-cols-3">
 		<div>
 			<ProfileInformation />
 		</div>

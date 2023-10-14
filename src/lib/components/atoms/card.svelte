@@ -8,7 +8,7 @@
 	 */
 	export let hasPadding = true;
 
-	const padding = hasPadding ? 'p-4' : '';
+	const padding = hasPadding ? 'p-6' : '';
 </script>
 
 <div class="bg-white rounded-md {padding} shadow {classes}">
