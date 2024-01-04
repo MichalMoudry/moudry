@@ -1,9 +1,13 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+<script setup>
+import Button from "../components/atoms/Button.vue";
+import Card from "../components/atoms/Card.vue";
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <p>Test</p>
+    <Card>
+      <Button :ctn="Temp" />
+    </Card>
   </main>
 </template>
