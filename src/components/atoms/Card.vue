@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="bg-white rounded-md shadow" :class="{ 'p-6': props.hasPadding }">
+    <div class="bg-white rounded-md shadow flex flex-col" :class="{ 'p-6': props.hasPadding }">
         <slot/>
     </div>
 </template>
