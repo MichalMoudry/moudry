@@ -1,42 +1,54 @@
-# michalmoudry.github.io
+# personal-website
 
-This is a repository for my personal website.
+This template should help get you started developing with Vue 3 in Vite.
 
-## create-svelte
+## Recommended IDE Setup
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-### Creating a project
+## Customize configuration
 
-If you're seeing this, you've probably already done this step. Congrats!
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Project Setup
 
-# create a new project in my-app
-npm create svelte@latest my-app
+```sh
+npm install
 ```
 
-### Developing
+### Compile and Hot-Reload for Development
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-### Building
+### Compile and Minify for Production
 
-To create a production version of your app:
-
-```bash
+```sh
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+### Run End-to-End Tests with [Playwright](https://playwright.dev)
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```sh
+# Install browsers for the first run
+npx playwright install
+
+# When testing on CI, must build the project first
+npm run build
+
+# Runs the end-to-end tests
+npm run test:e2e
+# Runs the tests only on Chromium
+npm run test:e2e -- --project=chromium
+# Runs the tests of a specific file
+npm run test:e2e -- tests/example.spec.ts
+# Runs the tests in debug mode
+npm run test:e2e -- --debug
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
