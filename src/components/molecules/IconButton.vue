@@ -1,16 +1,13 @@
 <script setup>
-    import Icon from "../atoms/Icon.vue"
-
     const props = defineProps({
         content: String,
-        placement: Number,
         icon: String
     })
 </script>
 
 <template>
-    <button>
-        <Icon :icon="icon" />
+    <button class="border-primary-300 border rounded py-1 px-2 hover:bg-primary-300">
+        <!--<Icon :icon="icon" is-primary="false" />-->
         {{ content }}
     </button>
 </template>
