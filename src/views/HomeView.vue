@@ -8,6 +8,9 @@ import IconButton from "@/components/molecules/IconButton.vue"
 import IconHeader from "@/components/molecules/IconHeader.vue";
 import IconText from "@/components/molecules/IconText.vue";
 import Project from "@/components/molecules/Project.vue";
+import ProfileInformation from "@/components/organisms/ProfileInformation.vue"
+import OssContributionListItem from "@/components/molecules/OssContributionListItem.vue";
+import DateRange from "@/components/atoms/DateRange.vue";
 
 /**
  * Function for displaying an alert.
@@ -42,6 +45,12 @@ function alertCustom(text) {
           Test project description Test project description
         </p>
       </Project>
+
+      <hr class="my-5" />
+
+      <ProfileInformation />
+      <OssContributionListItem url="nunit.com" name="Nunit" description="Test description" />
+      <DateRange start-date="2017" />
     </Card>
   </main>
 </template>
