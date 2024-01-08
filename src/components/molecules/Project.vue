@@ -14,7 +14,7 @@
             <span class="font-bold">{{ header }}</span>
         </div>
 
-        <div class="px-3 py-1 text-justify">
+        <div class="px-4 py-1 text-justify">
             <slot />
         </div>
     </div>

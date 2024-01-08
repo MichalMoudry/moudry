@@ -7,7 +7,7 @@
 </script>
 
 <template>
-    <a :href="formattedUrl" class="hover:underline text-blue-800">
+    <a :href="formattedUrl" class="hover:underline text-blue-600">
         {{ content }}
     </a>
 </template>

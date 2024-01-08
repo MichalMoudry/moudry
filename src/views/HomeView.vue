@@ -29,15 +29,15 @@ import IconButton from '@/components/molecules/IconButton.vue';
 
   <Card class="mt-4">
     <IconHeader icon="monitor" text="Education" />
-    <EduListItem school-name="Vysoká škola ekonomická v Praze" start-date="2021" end-date="2023" id="vse2" school-url="vse.cz">
+    <EduListItem school-name="Vysoká škola ekonomická v Praze" start-date="2021" end-date="2024" id="vse2" school-url="vse.cz" detail-url="/vse2">
         <p>Two and a half year study of information systems and technologies.</p>
     </EduListItem>
     <hr class="my-4" />
-    <EduListItem school-name="Vysoká škola ekonomická v Praze" start-date="2018" end-date="2021" id="vse1" school-url="vse.cz">
+    <EduListItem school-name="Vysoká škola ekonomická v Praze" start-date="2018" end-date="2021" id="vse1" school-url="vse.cz" detail-url="/vse1">
         <p>Three-year study of applied informatics.</p>
     </EduListItem>
     <hr class="my-4" />
-    <EduListItem school-name="Střední průmyslová škola na Proseku" start-date="2014" end-date="2018" id="sps" school-url="sps-prosek.cz">
+    <EduListItem school-name="Střední průmyslová škola na Proseku" start-date="2014" end-date="2018" id="sps" school-url="sps-prosek.cz" detail-url="/sps">
         <p>Four-year study of information technology and computer science, ended with a graduation exam.</p>
     </EduListItem>
   </Card>
@@ -72,7 +72,7 @@ import IconButton from '@/components/molecules/IconButton.vue';
     <IconHeader icon="lightbulb" text="Open source contributions" />
     <OssContributionListItem name="Ambie" url="github.com/jenius-apps/ambie" description="A modern Windows app that plays soothing tones to help you be healthier, happier, and more relaxed." />
     <hr class="my-4" />
-    <OssContributionListItem name="Nunit - docs" url="#" description="." />
+    <OssContributionListItem name="Nunit - docs" url="github.com/nunit/docs" description="." />
   </Card>
 
   <Card class="mt-4">

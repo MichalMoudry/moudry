@@ -17,9 +17,9 @@ function toggleDropdown() {
 </script>
 
 <template>
-    <div class="relative inline-block text-left">
+    <div class="relative inline-block text-left rounded hover:bg-primary-300">
         <button class="rounded py-1 px-2" @click="toggleDropdown">
-            <Icon icon="ellipses" is-primary="false" />
+            <Icon icon="ellipses" :is-primary="false" />
         </button>
 
         <div class="absolute bg-white right-0 z-10 origin-top-right rounded shadow w-56 ring-1 ring-black ring-opacity-5" :class="displayClass">

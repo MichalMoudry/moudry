@@ -1,4 +1,5 @@
 <script setup>
+    import { RouterLink } from 'vue-router';
     import LargeBoldText from '../atoms/LargeBoldText.vue';
     import DateRange from '../atoms/DateRange.vue';
     import DropdownButton from './DropdownButton.vue';
@@ -7,7 +8,8 @@
         schoolName: String,
         startDate: String,
         endDate: String,
-        schoolUrl: String
+        schoolUrl: String,
+        detailUrl: String
     })
 
     const formattedUrl = `https://${props.schoolUrl}`
@@ -19,6 +21,7 @@
             <LargeBoldText :text="schoolName" />
             <DropdownButton title="View menu">
                 <a :href="formattedUrl" title="School's website" class="block py-2 px-3 hover:bg-primary-300">School's website</a>
+                <RouterLink :to="detailUrl" title="View details" class="block py-2 px-3 hover:bg-primary-300">More details</RouterLink>
             </DropdownButton>
         </div>
         <DateRange :start-date="startDate" :end-date="endDate" />
