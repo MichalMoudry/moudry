@@ -1,7 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import Link from './components/atoms/Link.vue';
-import ProfileInformation from './components/organisms/ProfileInformation.vue';
+import Link from './components/atoms/Link.vue'
+import ProfileInformation from './components/organisms/ProfileInformation.vue'
 </script>
 
 <template>
