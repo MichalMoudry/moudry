@@ -8,7 +8,7 @@ import IconHeader from '@/components/molecules/IconHeader.vue'
     <IconHeader icon="sun" text="Skills" />
 
     <h3 class="font-bold">Knowledge in the field</h3>
-    <table class="table-auto border border-collapse mt-4 w-full">
+    <table class="table-auto border border-collapse mt-4 w-full" data-testid="knowledge-table">
       <tbody>
         <tr>
           <td class="border p-2">Software development</td>
@@ -29,7 +29,7 @@ import IconHeader from '@/components/molecules/IconHeader.vue'
     </table>
 
     <h3 class="font-bold mt-6">Tools and technologies</h3>
-    <table class="table-auto border border-collapse mt-4 w-full">
+    <table class="table-auto border border-collapse mt-4 w-full" data-testid="tools-table">
       <tbody>
         <tr>
           <td class="border p-2">C#</td>

@@ -9,7 +9,7 @@ import IconButton from '@/components/molecules/IconButton.vue'
 </script>
 
 <template>
-  <Card>
+  <Card id="about-card">
     <IconHeader icon="browser" text="About" />
     <p>
       IT Student and .NET developer. Nowadays, working mostly in C# and .NET ecosystem developing
@@ -18,7 +18,7 @@ import IconButton from '@/components/molecules/IconButton.vue'
     </p>
   </Card>
 
-  <Card class="mt-4">
+  <Card class="mt-4" id="work-experience-card">
     <IconHeader icon="briefcase" text="Work Experience" />
     <WorkExpListItem
       position=".NET Developer"
