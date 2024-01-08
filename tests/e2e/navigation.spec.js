@@ -5,6 +5,8 @@ test('test navigation to the skills page', async ({ page }) => {
   await page.getByText('More skills').click()
   await page.waitForURL('**/skills')
 
-  expect(page.locator('h2 .text-2xl')).toHaveText('Skills')
+  const header = page.locator('h2 .text-2xl')
+  await header.waitFor()
+  expect(header).toHaveText('Skills')
   expect(page.getByTestId('knowledge-table')).toBeVisible()
 })
