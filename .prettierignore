@@ -14,3 +14,7 @@ yarn.lock
 
 **/*.py
 **/.pytest_cache
+**/*.fs
+**/*.fsproj
+**/obj
+**/bin
