@@ -64,6 +64,6 @@ type NavigationTests() =
             |> Async.AwaitTask
             |> Async.RunSynchronously
 
-        (*this.Expect(this.Page.Locator(".project")).ToHaveCountAsync(projectCount)
+        this.Expect(this.Page.Locator(".project")).ToHaveCountAsync(projectCount)
             |> Async.AwaitTask
-            |> Async.RunSynchronously*)
+            |> Async.RunSynchronously
