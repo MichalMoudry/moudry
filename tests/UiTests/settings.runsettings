@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <!-- NUnit adapter -->
+    <NUnit>
+        <NumberOfWorkers>1</NumberOfWorkers>
+    </NUnit>
+    <Playwright>
+        <LaunchOptions>
+            <Headless>true</Headless>
+        </LaunchOptions>
+    </Playwright>
+</RunSettings>
