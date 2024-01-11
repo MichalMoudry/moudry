@@ -42,7 +42,7 @@ type NavigationTests() =
     /// A test case covering a basic scenario of navigating to a SPS page
     /// and validating if projects are displayed.
     [<TestCase("sps", 3)>]
-    [<TestCase("vse1", 5)>]
+    [<TestCase("vse1", 7)>]
     [<TestCase("vse2", 4)>]
     member this.``Navigate to an education page and count projects`` (pageId: string) projectCount =
         this.Page.GotoAsync("/")
