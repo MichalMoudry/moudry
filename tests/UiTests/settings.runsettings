@@ -2,7 +2,7 @@
 <RunSettings>
     <!-- NUnit adapter -->
     <NUnit>
-        <NumberOfWorkers>1</NumberOfWorkers>
+        <NumberOfWorkers>2</NumberOfWorkers>
     </NUnit>
     <Playwright>
         <LaunchOptions>
