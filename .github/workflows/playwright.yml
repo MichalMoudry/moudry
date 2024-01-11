@@ -21,10 +21,10 @@ jobs:
           dotnet-version: 8.0.x
 
       - run: dotnet build
-        working-directory: $TestsLocation
+        working-directory: '$TestsLocation'
 
       - name: Run your tests
         run: dotnet test
-        working-directory: $TestsLocation
+        working-directory: '$TestsLocation'
         env:
           HOME: /root
