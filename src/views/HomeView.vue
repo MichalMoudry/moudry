@@ -82,7 +82,7 @@ import IconButton from '@/components/molecules/IconButton.vue'
     </EduListItem>
   </Card>
 
-  <Card class="mt-4">
+  <Card class="mt-4" id="skills-card">
     <IconHeader icon="sun" text="Skills" />
 
     <div class="grid grid-rows-1 grid-cols-2">
