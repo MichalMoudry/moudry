@@ -11,7 +11,7 @@ jobs:
     container:
       image: mcr.microsoft.com/playwright/dotnet:v1.40.0-jammy
     env:
-      TestsLocation: tests/UiTests
+      Tests_Location: tests/UiTests
     steps:
       - uses: actions/checkout@v4
 
@@ -21,10 +21,10 @@ jobs:
           dotnet-version: 8.0.x
 
       - run: dotnet build
-        working-directory: '$TestsLocation'
+        working-directory: ${{ env.Tests_Location }}
 
       - name: Run your tests
         run: dotnet test
-        working-directory: '$TestsLocation'
+        working-directory: ${{ env.Tests_Location }}
         env:
           HOME: /root
