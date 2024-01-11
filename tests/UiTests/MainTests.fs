@@ -6,7 +6,7 @@ open Microsoft.Playwright.NUnit
 [<Sealed>]
 [<Parallelizable(ParallelScope.Self)>]
 [<TestFixture>]
-type internal MainTests() =
+type MainTests() =
     inherit PageTest()
     override _.ContextOptions() = Settings.BrowserContextOptions
 

@@ -7,7 +7,7 @@ open System.Text.RegularExpressions
 [<Sealed>]
 [<Parallelizable(ParallelScope.Self)>]
 [<TestFixture>]
-type internal NavigationTests() =
+type NavigationTests() =
     inherit PageTest()
     override _.ContextOptions() = Settings.BrowserContextOptions
 
