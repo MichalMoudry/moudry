@@ -36,6 +36,7 @@
 			<a href="https://www.{url}" title="School site" class="block py-2 px-3 hover:bg-primary-300"
 				>School site</a
 			>
+			<a href="/{id}" title="More details" class="block py-2 px-3 hover:bg-primary-300">More details</a>
 		</DropDownButton>
 	</div>
 	<div class="my-3">

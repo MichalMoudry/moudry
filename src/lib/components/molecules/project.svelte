@@ -8,12 +8,12 @@
 
 	export let isFirst = false;
 
-	const marginTop = isFirst ? 'mt-2' : 'mt-5';
+	const marginTop = isFirst ? 'mt-2' : 'mt-6';
 </script>
 
 <div class={marginTop}>
 	<ProjectHeader text={header} />
-	<div class="px-3 pt-1 text-justify">
+	<div class="px-5 pt-2 text-justify">
 		<slot />
 	</div>
 </div>

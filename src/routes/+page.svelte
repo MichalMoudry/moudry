@@ -82,7 +82,7 @@
 	<div class="grid grid-rows-1 grid-cols-2">
 		<ul>
 			<li class="border-b pb-1">C#</li>
-			<li class="border-b py-1">XAML</li>
+			<li class="border-b py-1">UML</li>
 			<li class="border-b py-1">PHP</li>
 			<li class="border-b py-1">EF Core</li>
 			<li class="border-b py-1">ReactJS</li>
@@ -93,7 +93,7 @@
 			<li class="border-b py-1">Go</li>
 			<li class="border-b py-1">HTML</li>
 			<li class="border-b py-1">CSS</li>
-			<li class="border-b py-1">UML</li>
+			<li class="border-b py-1">XAML</li>
 			<li class="pt-1">Power BI</li>
 		</ul>
 	</div>

@@ -20,4 +20,4 @@
 	export let classes = '';
 </script>
 
-<a href="https://www.{url}" {title} class="hover:underline text-blue-800 {classes}">{content}</a>
+<a href="https://www.{url}" {title} class="text-blue-800 {classes}">{content}</a>

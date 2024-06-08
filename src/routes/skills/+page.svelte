@@ -32,23 +32,23 @@
 		<tbody>
 			<tr>
 				<td class="border p-2">C#</td>
-				<td class="border p-2">XAML</td>
-			</tr>
-			<tr>
-				<td class="border p-2">UML</td>
 				<td class="border p-2">Python</td>
 			</tr>
 			<tr>
+				<td class="border p-2">UML</td>
 				<td class="border p-2">Go</td>
-				<td class="border p-2">PHP</td>
 			</tr>
 			<tr>
 				<td class="border p-2">LINQ</td>
+				<td class="border p-2">PHP</td>
+			</tr>
+			<tr>
+				<td class="border p-2">XAML</td>
 				<td class="border p-2">JavaScript</td>
 			</tr>
 			<tr>
 				<td class="border p-2">SQL</td>
-				<td class="border p-2">Xamarin.Forms</td>
+				<td class="border p-2">Linux</td>
 			</tr>
 			<tr>
 				<td class="border p-2">HTML</td>
@@ -67,27 +67,12 @@
 				<td class="border p-2">Java</td>
 			</tr>
 			<tr>
-				<td class="border p-2">Microsoft Project</td>
+			    <td class="border p-2">XML</td>
 				<td class="border p-2">Power BI</td>
 			</tr>
 			<tr>
-				<td class="border p-2">Microsoft Office</td>
-				<td class="border p-2">Microsoft Excel</td>
+				<td class="border p-2" colspan="2">EF Core</td>
 			</tr>
-			<tr>
-				<td class="border p-2">Wordpress</td>
-				<td class="border p-2">XML</td>
-			</tr>
-			<tr>
-				<td class="border p-2">EF Core</td>
-				<td class="border p-2">Linux</td>
-			</tr>
-			<!--
-                <tr>
-                    <td class="border p-2">Svelte</td>
-                    <td class="border p-2">Tailwind CSS</td>
-                </tr>
-            -->
 		</tbody>
 	</table>
 </Card>
