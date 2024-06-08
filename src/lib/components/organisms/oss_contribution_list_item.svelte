@@ -1,21 +1,21 @@
 <script>
-	import LargeBoldText from '../atoms/large_bold_text.svelte';
-	import Link from '../atoms/link.svelte';
+  import LargeBoldText from '../atoms/large_bold_text.svelte'
+  import Link from '../atoms/link.svelte'
 
-	/**
-	 * @type {String}
-	 */
-	export let name;
+  /**
+   * @type {String}
+   */
+  export let name
 
-	/**
-	 * @type {String}
-	 */
-	export let description;
+  /**
+   * @type {String}
+   */
+  export let description
 
-	/**
-	 * @type {String}
-	 */
-	export let url;
+  /**
+   * @type {String}
+   */
+  export let url
 </script>
 
 <LargeBoldText text={name} />

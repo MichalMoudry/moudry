@@ -1,18 +1,18 @@
 <script>
-	import Icon from '../atoms/icon.svelte';
+  import Icon from '../atoms/icon.svelte'
 
-	/**
-	 * @type {String}
-	 */
-	export let icon;
+  /**
+   * @type {String}
+   */
+  export let icon
 
-	/**
-	 * @type {String}
-	 */
-	export let text;
+  /**
+   * @type {String}
+   */
+  export let text
 </script>
 
 <p>
-	<Icon {icon} classes="me-2 text-xl" />
-	{text}
+  <Icon {icon} classes="me-2 text-xl" />
+  {text}
 </p>
