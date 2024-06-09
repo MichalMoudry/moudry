@@ -22,7 +22,7 @@
     name=".NET Developer"
     employer="Ciklum Western Europe, Czech Republic"
     startDate="Jul 2022"
-    description="Working on a complex .NET solution as a full-stack developer. As part of this work, I am working on stuff ranging from implementation of new features, bug fixing, optimizations to security and compliance."
+    description="Working on a .NET solution as a full-stack developer. As part of this work, I am working on stuff ranging from implementation of new features, bug fixing, optimizations to security and compliance."
   />
   <hr class="my-4" />
   <WorkExpListItem

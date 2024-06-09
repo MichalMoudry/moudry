@@ -32,3 +32,17 @@ h3,
 .text-xl {
   font-family: 'Hubot Sans';
 }
+
+@media print {
+    body {
+        background-color: white;
+    }
+
+    #profile-information, footer {
+        display: none !important;
+    }
+
+    .card {
+        border: 1px solid black;
+    }
+}

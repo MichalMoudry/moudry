@@ -10,7 +10,7 @@
       <ProfileInformation />
     </div>
 
-    <div class="w-full col-span-2 sm:col-span-1 md:col-span-3">
+    <div class="w-full col-span-1 sm:col-span-1 md:col-span-3">
       <slot />
     </div>
   </div>

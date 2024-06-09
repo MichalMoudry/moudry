@@ -11,6 +11,6 @@
   const padding = hasPadding ? 'p-6' : ''
 </script>
 
-<div class="bg-white rounded-md {padding} shadow {classes}">
+<div class="card bg-white rounded-md {padding} shadow {classes}">
   <slot />
 </div>
