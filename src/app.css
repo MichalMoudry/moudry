@@ -22,8 +22,9 @@
   font-stretch: 75% 125%;
 }
 
-html {
-  font-family: 'Mona Sans';
+body {
+    text-rendering: optimizeLegibility;
+    font-weight: normal;
 }
 
 h1,
@@ -33,16 +34,11 @@ h3,
   font-family: 'Hubot Sans';
 }
 
-@media print {
-    body {
-        background-color: white;
-    }
+main {
+    max-width: 48rem;
+    margin: 0 auto;
+}
 
-    #profile-information, footer {
-        display: none !important;
-    }
-
-    .card {
-        border: 1px solid black;
-    }
+.button-shadow {
+    box-shadow: 0.2rem 0.2rem rgb(134 239 172);
 }

@@ -1,53 +1,16 @@
 <script>
-  /**
-   * @type {String}
-   */
-  export let classes = ''
+    /**
+    * A string that will be used as button's content.
+    * @type {String}
+    */
+    export let content;
 
-  /**
-   * @type {String?}
-   */
-  export let content = null
-
-  /**
-   * @type {(() => void)?}
-   */
-  export let onClick = null
-
-  /**
-   * @type {String}
-   */
-  export let title
-
-  /**
-   * @type {String?}
-   */
-  export let id = null
+    /**
+    * @type {(() => void)?}
+    */
+    export let onClick = null
 </script>
 
-{#if id != null}
-  <button
-    class="border-primary-300 border rounded py-1 px-2 {classes} hover:bg-primary-400"
-    on:click={onClick}
-    {title}
-    {id}
-  >
-    {#if content != null}
-      <span>{content}</span>
-    {:else}
-      <slot />
-    {/if}
-  </button>
-{:else}
-  <button
-    class="border-primary-300 border rounded py-1 px-2 {classes} hover:bg-primary-400"
-    on:click={onClick}
-    {title}
-  >
-    {#if content != null}
-      <span>{content}</span>
-    {:else}
-      <slot />
-    {/if}
-  </button>
-{/if}
+<button class="border border-black py-1 px-2 button-shadow hover:bg-black hover:text-white" type="button" onclick={onClick}>
+    {content}
+</button  >

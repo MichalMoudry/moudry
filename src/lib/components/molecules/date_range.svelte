@@ -1,6 +1,6 @@
 <script>
-  import Icon from './icon.svelte'
-  import Pill from './pill.svelte'
+  import Icon from '../atoms/icon.svelte'
+  import Pill from '../atoms/pill.svelte'
 
   /**
    * @type {String}
@@ -13,7 +13,7 @@
   export let endDate
 </script>
 
-<p class="py-2">
+<p class="py-1">
   <Icon icon="calendar" classes="me-1" />
   <span>
     {startDate}

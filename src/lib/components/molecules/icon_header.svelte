@@ -12,7 +12,7 @@
   export let text
 </script>
 
-<h2 class="flex items-center mb-4">
-  <Icon {icon} classes="me-4 text-3xl" />
-  <span class="text-2xl">{text}</span>
+<h2 class="flex items-center mb-3 font-bold">
+  <Icon {icon} isPrimaryTheme={false} classes="me-4 text-3xl" />
+  <span>{text}</span>
 </h2>
