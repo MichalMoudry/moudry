@@ -13,7 +13,7 @@
   export let endDate
 </script>
 
-<p class="py-1">
+<p>
   <Icon icon="calendar" classes="me-1" />
   <span>
     {startDate}

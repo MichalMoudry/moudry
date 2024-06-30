@@ -35,6 +35,6 @@
     <DateRange {startDate} {endDate} />
 
     {#if description !== null}
-      <p class="text-justify pt-2">{description}</p>
+      <p class="text-justify pt-3">{description}</p>
     {/if}
 </div >

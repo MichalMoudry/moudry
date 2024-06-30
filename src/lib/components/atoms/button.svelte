@@ -9,8 +9,15 @@
     * @type {(() => void)?}
     */
     export let onClick = null
+
+    /**
+     * @type {String?}
+    */
+    export let bgColor = null
+
+    let background = bgColor ?? "bg-white"
 </script>
 
-<button class="border border-black py-1 px-2 button-shadow hover:bg-black hover:text-white" type="button" onclick={onClick}>
+<button class="border border-black py-1 px-2 button-shadow {background} hover:bg-black hover:text-white" type="button" on:click={onClick}>
     {content}
 </button  >

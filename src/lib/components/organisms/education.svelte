@@ -1,7 +1,6 @@
 <script>
   import IconHeader from "../molecules/icon_header.svelte"
-  import EducationItem from "./education_item.svelte"
-
+  import EducationItem from "../molecules/education_item.svelte"
 </script>
 
 <IconHeader icon="monitor" text="Education" />

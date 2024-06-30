@@ -15,6 +15,11 @@
   font-stretch: 75% 125%;
 }
 
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+}
+
 h1,
 h2,
 h3,
@@ -23,7 +28,7 @@ h3,
 }
 
 main {
-    max-width: 50rem;
+    max-width: 48rem;
     margin: 0 auto;
 }
 

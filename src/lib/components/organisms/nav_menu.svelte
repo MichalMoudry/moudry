@@ -2,7 +2,7 @@
   import Button from "../atoms/button.svelte"
 
 </script>
-<div class="flex gap-3 justify-evenly flex-wrap">
+<div class="flex gap-2 justify-evenly flex-wrap">
     <Button content="About" />
     <Button content="Work experience" />
     <Button content="Education" />
