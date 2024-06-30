@@ -2,7 +2,7 @@
   import IconHeader from "../molecules/icon_header.svelte"
 </script>
 
-<IconHeader icon="globe" text="Languages" />
+<IconHeader icon="globe" id="languages" text="Languages" />
 
 <p class="font-bold">Czech</p>
 <p class="mb-4">Native or bilingual speaker knowledge</p>

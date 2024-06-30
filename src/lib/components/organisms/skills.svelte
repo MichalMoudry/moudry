@@ -1,9 +1,9 @@
 <script>
   import Button from "../atoms/button.svelte"
-import IconHeader from "../molecules/icon_header.svelte"
+    import IconHeader from "../molecules/icon_header.svelte"
 </script>
 
-<IconHeader icon="sun" text="Skills" />
+<IconHeader icon="sun" id="skills" text="Skills" />
 
 <div class="grid grid-rows-1 grid-cols-2">
     <ul>
@@ -23,5 +23,5 @@ import IconHeader from "../molecules/icon_header.svelte"
         <li class="pt-1">Power BI</li>
     </ul>
 
-    <Button content="View skills page" bgColor="bg-red-300" />
+    <Button title="View skills page" content="View skills page" bgColor="bg-red-300" />
 </div>

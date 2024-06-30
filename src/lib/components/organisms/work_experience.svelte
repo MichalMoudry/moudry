@@ -4,7 +4,7 @@
 
 </script>
 
-<IconHeader icon="briefcase" text="Work Experience" />
+<IconHeader icon="briefcase" id="workexp" text="Work Experience" />
 
 <WorkExpItem
     name=".NET Developer"

@@ -3,7 +3,7 @@
   import OssContribution from "../molecules/oss_contribution.svelte"
 </script>
 
-<IconHeader icon="lightbulb" text="Open source contributions" />
+<IconHeader icon="lightbulb" id="oss" text="Open source contributions" />
 
 <OssContribution
     name="Ambie"

@@ -27,9 +27,9 @@
 </script>
 
 <div class="relative inline-block text-left">
-    <span id={buttonId}><Icon icon="ellipses" isPrimaryTheme={false} /></span>
+    <button id={buttonId} title={title} on:click={displayDropdown} class="p-2"><Icon icon="ellipses" isPrimaryTheme={false} /></button>
     <div
-        class="absolute {displayClass} bg-white right-0 z-10 origin-top-right rounded-md shadow-lg w-56 ring-1 ring-black ring-opacity-5"
+        class="absolute {displayClass} bg-white right-0 z-10 origin-top-right border border-black shadow-lg w-56 ring-1 ring-black ring-opacity-5"
         role="menu"
         aria-orientation="vertical"
         aria-labelledby={buttonId}

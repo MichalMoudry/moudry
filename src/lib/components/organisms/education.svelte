@@ -3,7 +3,7 @@
   import EducationItem from "../molecules/education_item.svelte"
 </script>
 
-<IconHeader icon="monitor" text="Education" />
+<IconHeader icon="monitor" id="education" text="Education" />
 
 <EducationItem name="Vysoká škola ekonomická v Praze" startDate="2021" endDate="2024" id="vse1" url="vse.cz">
   <p>Two and a half year study of information systems and technologies.</p>
