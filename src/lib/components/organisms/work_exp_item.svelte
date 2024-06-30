@@ -31,7 +31,7 @@
 
 <div class="{classes}">
     <p class="font-bold">{name}</p >
-    <p class="pb-3 italic">{employer}</p>
+    <p class="pb-3 text-sm">{employer}</p>
     <DateRange {startDate} {endDate} />
 
     {#if description !== null}
