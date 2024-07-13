@@ -22,6 +22,5 @@
         <li class="border-b py-1">XAML</li>
         <li class="pt-1">Power BI</li>
     </ul>
-
-    <Button title="View skills page" content="View skills page" bgColor="bg-red-300" />
 </div>
+<Button title="View skills page" content="View skills page" isFullWidth={true} bgColor="bg-orange-300" />
