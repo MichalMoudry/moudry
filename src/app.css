@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Hubot Sans';
+  src:
+    url('/Hubot-Sans.woff2') format('woff2 supports variations'),
+    url('/Hubot-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+.text-xl {
+  font-family: 'Hubot Sans';
+}
+
+main {
+  max-width: 48rem;
+  margin: 0 auto;
+}
