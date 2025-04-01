@@ -1,24 +1,24 @@
 <script>
-	import ProfileInfo from "$lib/components/organisms/ProfileInfo.svelte";
-    import '../app.css'
+	import ProfileInfo from '$lib/components/organisms/ProfileInfo.svelte';
+	import '../app.css';
 
-    let { children } = $props();
+	let { children } = $props();
 </script>
 
 <main class="p-4 min-h-screen flex justify-center">
-    <div class="grid container gap-4 grid-cols-1 md:grid-cols-4">
-        <div>
-            <ProfileInfo />
-        </div>
+	<div class="grid container gap-4 grid-cols-1 md:grid-cols-4">
+		<div>
+			<ProfileInfo />
+		</div>
 
-        <div class="w-full col-span-2 sm:col-span-1 md:col-span-3">
-            {@render children?.()}
-        </div>
-    </div>
+		<div class="w-full col-span-2 sm:col-span-1 md:col-span-3">
+			{@render children?.()}
+		</div>
+	</div>
 </main>
 
 <footer class="bg-primary-300 p-4 w-full flex justify-center">
-    <p>Powered by SvelteKit, Tailwind CSS and Open Iconic.</p>
+	<p>Powered by SvelteKit, Tailwind CSS and Open Iconic.</p>
 </footer>
 
 <!--<script>

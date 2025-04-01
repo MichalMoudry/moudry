@@ -1,8 +1,8 @@
 {
-  "recommendations": [
-    "Vue.volar",
-    "Vue.vscode-typescript-vue-plugin",
-    "ms-playwright.playwright",
-    "dbaeumer.vscode-eslint"
-  ]
+	"recommendations": [
+		"Vue.volar",
+		"Vue.vscode-typescript-vue-plugin",
+		"ms-playwright.playwright",
+		"dbaeumer.vscode-eslint"
+	]
 }
