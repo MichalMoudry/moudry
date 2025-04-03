@@ -50,6 +50,22 @@
   }
 }
 
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('/Mona-Sans.woff2') format('woff2 supports variations'),
+    url('/Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+@font-face {
+  font-family: 'Hubot Sans';
+  src: url('/Hubot-Sans.woff2') format('woff2 supports variations'),
+    url('/Hubot-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
 body {
   min-height: 100vh;
   color: var(--color-text);
@@ -57,8 +73,7 @@ body {
     color 0.5s,
     background-color 0.5s;
   line-height: 1.6;
-  font-family: monospace;
-  font-size: 15px;
+  font-family: 'Mona Sans', monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

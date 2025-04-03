@@ -1,7 +1,7 @@
 <script setup>
 import Link from "./components/atoms/Link.vue";
 import ProfileInfo from "./components/organisms/ProfileInfo.vue";
-import Home from "./components/templates/Home.vue";
+import Home from "./components/pages/Home.vue";
 </script>
 
 <template>
