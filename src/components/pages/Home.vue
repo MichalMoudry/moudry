@@ -3,6 +3,7 @@ import Card from "../atoms/Card.vue";
 import Separator from "../atoms/Separator.vue";
 import IconHeader from "../molecules/IconHeader.vue";
 import EduList from "../templates/EduList.vue";
+import OssContributions from "../templates/OssContributions.vue";
 import WorkExpList from "../templates/WorkExpList.vue";
 </script>
 
@@ -49,6 +50,7 @@ import WorkExpList from "../templates/WorkExpList.vue";
 
     <Card class="mt-4">
         <IconHeader icon="lightbulb" text="OSS contributions" />
+        <OssContributions/>
     </Card>
 
     <Card class="mt-4">
@@ -59,9 +61,5 @@ import WorkExpList from "../templates/WorkExpList.vue";
 
         <p class="font-bold">English</p>
         <p>Knowledge enabling professional work</p>
-        <Separator/>
-
-        <p class="font-bold">German</p>
-        <p>Basic knowledge</p>
     </Card>
 </template>

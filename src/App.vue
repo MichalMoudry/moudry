@@ -1,5 +1,4 @@
 <script setup>
-import Link from "./components/atoms/Link.vue";
 import ProfileInfo from "./components/organisms/ProfileInfo.vue";
 import Home from "./components/pages/Home.vue";
 </script>
@@ -17,6 +16,7 @@ import Home from "./components/pages/Home.vue";
     </div>
   </main>
 
+  <!--
   <footer class="bg-primary-300 p-4 w-full flex justify-center">
     <p>
       Powered by
@@ -24,4 +24,5 @@ import Home from "./components/pages/Home.vue";
       <Link url="#" title="Vue.js" content="Vue.js" />
     </p>
   </footer>
+  -->
 </template>

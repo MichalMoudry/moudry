@@ -1,13 +1,9 @@
 <script setup>
 const props = defineProps({
-  icon: String,
-  isPrimary: {
-    type: Boolean,
-    default: true
-  }
+  icon: String
 })
 </script>
 
 <template>
-  <span class="oi" :class="{ 'text-primary-300': isPrimary }" :data-glyph="props.icon" />
+  <span class="oi" :data-glyph="props.icon" />
 </template>

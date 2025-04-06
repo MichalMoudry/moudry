@@ -8,7 +8,7 @@ import Link from '../atoms/Link.vue';
     <Card :has-padding="false">
         <div class="relative">
             <img src="/profile-image.jpg" alt="Michal Moudrý" draggable="false" class="rounded-t" />
-            <h1 class="text-3xl bg-primary-300 bg-opacity-80 bottom-0 ps-4 py-6 absolute w-full">
+            <h1 class="text-3xl bg-primary-300 opacity-80 bottom-0 ps-4 py-4 absolute w-full">
                 Michal Moudrý
             </h1>
         </div>
@@ -20,13 +20,19 @@ import Link from '../atoms/Link.vue';
                     url="linkedin.com/in/michal-moudry/"
                     title="LinkedIn"
                     content="LinkedIn"
-                    class="p-2 rounded mt-2 hover:bg-primary-300 hover:bg-opacity-80"
+                    class="rounded mt-2"
                 />
                 <Link
                     url="github.com/MichalMoudry"
                     title="GitHub"
                     content="GitHub"
-                    class="p-2 rounded mt-2 hover:bg-primary-300 hover:bg-opacity-80"
+                    class="rounded mt-2"
+                />
+                <Link
+                    url="bsky.app/profile/michalmoudry.bsky.social"
+                    title="Bluesky"
+                    content="Bluesky"
+                    class="rounded mt-2"
                 />
             </div>
         </div>
