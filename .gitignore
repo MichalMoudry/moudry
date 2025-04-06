@@ -28,14 +28,3 @@ coverage
 *.sw?
 
 *.tsbuildinfo
-
-test-results/
-playwright-report/
-
-# Python
-**/venv
-
-.fake
-bin/
-obj/
-.svelte-kit/
