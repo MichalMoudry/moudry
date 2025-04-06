@@ -4,8 +4,22 @@ on:
   push:
     branches:
       - main
+      - dev
 
 jobs:
+#  install:
+#    name: 'Install dependencies'
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout repo
+#        uses: actions/checkout@v4
+#      - name: Setup Node
+#        uses: actions/setup-node@v4
+#        with:
+#          cache: 'npm'
+#          cache-dependency-path: '**/package-lock.json'
+#      - run: npm ci
+
   build:
     name: 'Build'
     runs-on: ubuntu-latest
@@ -14,22 +28,27 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Node
         uses: actions/setup-node@v4
-#     - name: Install dependencies
-#       uses: bahmutov/npm-install@v1
+      - name: Install dependencies
+        run: npm ci
       - name: Build project
         run: npm run build
       - name: Upload static files as artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
-          path: build_outputs_folder/
+          name: 'github-pages'
+          path: dist/
+          retention-days: 1
 
   deploy:
     name: 'Deploy'
-    enironment:
-      name: github-pages
-      url: {{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    permissions:
+      id-token: write
+      pages: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
