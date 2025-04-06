@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - refs/heads/print-version
 
 jobs:
   build:
