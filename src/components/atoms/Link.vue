@@ -3,11 +3,10 @@ const props = defineProps({
     url: String,
     content: String
 })
-const formattedUrl = `https://${props.url}`
 </script>
 
 <template>
-    <a :href="formattedUrl">
+    <a :href="props.url">
         {{ content }}
     </a>
 </template>
