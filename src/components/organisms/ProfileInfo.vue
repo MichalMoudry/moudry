@@ -16,6 +16,24 @@ import Link from '../atoms/Link.vue';
         <div class="p-4">
             <IconText icon="house" text="Czechia" />
             <div class="flex flex-col mt-1">
+                <Link
+                    url="linkedin.com/in/michal-moudry/"
+                    title="LinkedIn"
+                    content="LinkedIn"
+                    class="rounded mt-2"
+                />
+                <Link
+                    url="github.com/MichalMoudry"
+                    title="GitHub"
+                    content="GitHub"
+                    class="rounded mt-2"
+                />
+                <Link
+                    url="bsky.app/profile/michalmoudry.bsky.social"
+                    title="Bluesky"
+                    content="Bluesky"
+                    class="rounded mt-2"
+                />
             </div>
         </div>
     </Card>
