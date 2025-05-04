@@ -2,8 +2,9 @@
 const props = defineProps({
   icon: String
 })
+let iconClass = `bi bi-${props.icon}`;
 </script>
 
 <template>
-  <span class="oi" :data-glyph="props.icon" />
+  <i :class="iconClass"></i>
 </template>

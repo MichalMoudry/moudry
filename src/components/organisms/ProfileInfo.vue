@@ -14,7 +14,7 @@ import Link from '../atoms/Link.vue';
         </div>
 
         <div class="p-4">
-            <IconText icon="home" text="Czechia" />
+            <IconText icon="house" text="Czechia" />
             <div class="flex flex-col mt-1">
                 <Link
                     url="linkedin.com/in/michal-moudry/"

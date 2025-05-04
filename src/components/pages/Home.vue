@@ -9,7 +9,7 @@ import WorkExpList from "../templates/WorkExpList.vue";
 
 <template>
     <Card>
-        <IconHeader icon="browser" text="About" />
+        <IconHeader icon="file-person" text="About" />
         <p>
             .NET developer and occasionally a security engineer. Nowadays, working mostly in C# and .NET
             ecosystem developing web services and other types of applications. Currently, I am learning Go,
@@ -23,7 +23,7 @@ import WorkExpList from "../templates/WorkExpList.vue";
     </Card>
 
     <Card class="mt-4">
-        <IconHeader icon="monitor" text="Education" />
+        <IconHeader icon="backpack4" text="Education" />
         <EduList />
     </Card>
 

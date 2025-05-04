@@ -8,7 +8,7 @@ const props = defineProps({
 
 <template>
   <h2 class="flex items-center mb-4">
-    <Icon :icon="icon" class="me-4 text-3xl" />
+    <Icon :icon="icon" class="me-3 text-3xl" />
     <span class="text-2xl">{{ text }}</span>
   </h2>
 </template>
