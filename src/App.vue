@@ -4,7 +4,7 @@ import Home from "./components/pages/Home.vue";
 </script>
 
 <template>
-  <main class="p-4 flex justify-center">
+  <main class="md:p-4 flex justify-center">
     <div class="grid container gap-4 grid-cols-1 md:grid-cols-3">
       <div>
         <ProfileInfo/>

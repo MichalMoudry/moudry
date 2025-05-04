@@ -1,13 +1,12 @@
 <script setup>
 const props = defineProps({
-    url: String,
-    content: String
+    url: String
 })
 const formattedUrl = `https://${props.url}`
 </script>
 
 <template>
-    <a :href="formattedUrl">
-        {{ content }}
+    <a :href="formattedUrl" class="rounded">
+        <slot />
     </a>
 </template>

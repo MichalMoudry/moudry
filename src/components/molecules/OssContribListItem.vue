@@ -15,6 +15,8 @@ const props = defineProps({
         <slot/>
     </div>
     <p>
-        <Link :url="url" title="Link to the project" content="Go to project page" />
+        <Link :url="url" title="Link to the project">
+            Go to project page
+        </Link>
     </p>
 </template>
