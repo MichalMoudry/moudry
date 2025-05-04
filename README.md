@@ -1,5 +1,7 @@
 # cv
 
+[![Build and deploy](https://github.com/MichalMoudry/moudry/actions/workflows/deploy.yml/badge.svg)](https://github.com/MichalMoudry/moudry/actions/workflows/deploy.yml)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
