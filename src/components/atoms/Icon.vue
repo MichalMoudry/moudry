@@ -1,8 +1,8 @@
 <script setup>
 const props = defineProps({
-  icon: String
+  icon: String,
 })
-let iconClass = `bi bi-${props.icon}`;
+let iconClass = `bi bi-${props.icon}`
 </script>
 
 <template>

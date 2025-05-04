@@ -2,7 +2,7 @@
 import Icon from '../atoms/Icon.vue'
 const props = defineProps({
   icon: String,
-  text: String
+  text: String,
 })
 </script>
 
