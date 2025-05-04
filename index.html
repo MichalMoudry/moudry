@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Michal Moudrý" />
+    <meta
+      name="description"
+      content="Personal website of software developer and network engineer Michal Moudrý. This website contains his work experience, education and skills."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michal Moudrý | .NET Developer</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css"
+      integrity="sha512-LeCmts7kEi09nKc+DwGJqDV+dNQi/W8/qb0oUSsBLzTYiBwxj0KBlAow2//jV7jwEHwSCPShRN2+IWwWcn1x7Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./app.css" rel="stylesheet" />
+</head>
+
+<body class="bg-slate-50">
+    <div id="app">
+        <main class="md:p-4 flex justify-center">
+            <div class="grid container gap-4 grid-cols-1 md:grid-cols-3">
+                <div>
+                    <div class="bg-white rounded-md shadow flex flex-col">
+                        <div class="relative">
+                            <img src="./assets/profile-image.jpg" alt="Michal Moudrý" draggable="false" class="rounded-t" />
+                            <h1 class="text-3xl bg-primary-300 opacity-80 bottom-0 ps-4 py-4 absolute w-full">
+                                Michal Moudrý
+                            </h1>
+                        </div>
+    
+                        <div class="p-4">
+                            <p>
+                                <span class="oi me-2 text-xl" data-glyph="home"></span>
+                                Czechia
+                            </p>
+                            <div class="flex flex-col mt-1">
+                                <a href="https://linkedin.com/in/michal-moudry/" title="LinkedIn" class="rounded mt-2">
+                                    LinkedIn
+                                </a>
+                                <a href="https://github.com/MichalMoudry" title="GitHub" class="rounded mt-2">
+                                    GitHub
+                                </a>
+                                <a href="https://bsky.app/profile/michalmoudry.bsky.social" title="Bluesky" class="rounded mt-2">
+                                    Bluesky
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full col-span-1 md:col-span-2">
+                    <!--Home-->
+                    <div class="bg-white rounded-md shadow flex flex-col p-6">
+                        <h2 class="flex items-center mb-4 text-2xl">
+                            <span class="oi me-4" data-glyph="browser"></span>
+                            About
+                        </h2>
+                        <p>
+                            .NET developer and occasionally a security engineer. Nowadays, working mostly with C# and .NET
+                            ecosystem developing web services and other types of applications. Currently, I am learning Go,
+                            C++ and Powershell.
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-md shadow flex flex-col p-6 mt-4">
+                        <h2 class="flex items-center mb-4 text-2xl">
+                            <span class="oi me-4" data-glyph="briefcase"></span>
+                            Work Experience
+                        </h2>
+
+                        <div>
+                            <span class="font-bold text-xl">
+                                .NET Developer
+                            </span>
+                            <p class="py-3">Ciklum Czech Republic & Slovakia</p>
+                            <p class="text-sm">
+                                <span class="oi me-1" data-glyph="calendar"></span>
+                                Jul 2022 - <span class="bg-primary-300 rounded px-2 py-1">Now</span>
+                            </p>
+                            <p class="pt-2">
+                                Working on a complex .NET solution as a full-stack developer.
+                                As part of this work, I am working on stuff ranging from implementation
+                                of new features, bug fixing, optimizations to security and compliance.
+                            </p>
+                        </div>
+
+                        <hr class="my-6 border-dashed border-slate-400" />
+
+                        <div>
+                            <span class="font-bold text-xl">
+                                Technology Support Administrator
+                            </span>
+                            <p class="py-3">IBM, Czech Republic</p>
+                            <p class="text-sm">
+                                <span class="oi me-1" data-glyph="calendar"></span>
+                                Jun 2020 - Aug 2021
+                            </p>
+                            <p class="pt-2">
+                                Worked with an ECM system and its separate system for document digitalization
+                                (Datacap). Part of this work included development of a COM library for
+                                integrating Datacap with the ECM system through a SOAP API.
+                            </p>
+                        </div>
+
+                        <hr class="my-6 border-dashed border-slate-400" />
+
+                        <div>
+                            <span class="font-bold text-xl">
+                                Service Technician/Web developer
+                            </span>
+                            <p class="py-3">Zettabyte IT, London</p>
+                            <p class="text-sm">
+                                <span class="oi me-1" data-glyph="calendar"></span>
+                                Feb 2017 - Feb 2017
+                            </p>
+                            <p class="pt-2">
+                                Worked in a computer repair shop, where my primary responsibility was to
+                                repair computers. Additionally, I contributed to their internal web application,
+                                that was written in PHP.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-md shadow flex flex-col p-6 mt-4">
+                        <h2 class="flex items-center mb-4 text-2xl">
+                            <span class="oi me-4" data-glyph="monitor"></span>
+                            Education
+                        </h2>
+                        <div>
+                            <span class="font-bold text-xl">
+                                Prague University of Economics and Business
+                            </span>
+                            <p class="my-1 py-2">
+                                <span class="oi me-1" data-glyph="calendar"></span>
+                                2021 - 2024
+                            </p>
+                            <p>
+                                Two and a half year study of information systems and
+                                technologies with specialization in Development of
+                                information system.
+                            </p>
+                        </div>
+
+                        <hr class="my-6 border-dashed border-slate-400" />
+
+                        <div>
+                            <span class="font-bold text-xl">
+                                Prague University of Economics and Business
+                            </span>
+                            <p class="my-1 py-2">
+                                <span class="oi me-1" data-glyph="calendar"></span>
+                                2018 - 2021
+                            </p>
+                            <p>Three-year study of applied informatics.</p>
+                        </div>
+
+                        <hr class="my-6 border-dashed border-slate-400" />
+
+                        <div>
+                            <span class="font-bold text-xl">
+                                Střední průmyslová škola na Proseku
+                            </span>
+                            <p class="my-1 py-2">
+                                <span class="oi me-1" data-glyph="calendar"></span>
+                                2014 - 2018
+                            </p>
+                            <p>
+                                Four-year study of information technology and computer science,
+                                ended with a graduation exam.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-md shadow flex flex-col p-6 mt-4">
+                        <h2 class="flex items-center mb-4 text-2xl">
+                            <span class="oi me-4" data-glyph="sun"></span>
+                            Skills
+                        </h2>
+                        <div class="grid grid-rows-1 grid-cols-2">
+                            <ul>
+                                <li class="border-b border-dashed pb-2 border-slate-400">C#</li>
+                                <li class="border-b border-dashed mt-2 pb-2 border-slate-400">Python</li>
+                                <li class="border-b border-dashed mt-2 pb-2 border-slate-400">UML</li>
+                                <li class="border-b border-dashed mt-2 pb-2 border-slate-400">EF Core</li>
+                                <li class="mt-2">UWP</li>
+                            </ul>
+                            <ul>
+                                <li class="border-b border-dashed pb-2 border-slate-400">Go</li>
+                                <li class="border-b border-dashed mt-2 pb-2 border-slate-400">F#</li>
+                                <li class="border-b border-dashed mt-2 pb-2 border-slate-400">ReactJS</li>
+                                <li class="border-b border-dashed mt-2 pb-2 border-slate-400">HTML & CSS</li>
+                                <li class="mt-2">Power BI</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-md shadow flex flex-col p-6 mt-4">
+                        <h2 class="flex items-center mb-4 text-2xl">
+                            <span class="oi me-4" data-glyph="lightbulb"></span>
+                            OSS contributions
+                        </h2>
+                        <div>
+                            <span class="font-bold text-xl">Ambie</span>
+                            <p class="py-2">
+                                A modern Windows app that plays soothing tones to help you be
+                                healthier, happier, and more relaxed.
+                            </p>
+                            <p>
+                                <a href="https://github.com/jenius-apps/ambie" title="Link to the project">
+                                    Go to project page
+                                </a>
+                            </p>
+
+                            <hr class="my-6 border-dashed border-slate-400" />
+
+                            <span class="font-bold text-xl">NUnit - docs</span>
+                            <p class="py-2">.</p>
+                            <p>
+                                <a href="https://github.com/nunit/docs" title="Link to the project">
+                                    Go to project page
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-md shadow flex flex-col p-6 mt-4">
+                        <h2 class="flex items-center mb-4 text-2xl">
+                            <span class="oi me-4" data-glyph="globe"></span>
+                            Languages
+                        </h2>
+                        <p class="font-bold">Czech</p>
+                        <p>Native or bilingual speaker knowledge</p>
+
+                        <hr class="my-6 border-dashed border-slate-400" />
+
+                        <p class="font-bold">English</p>
+                        <p>Knowledge enabling professional work</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
