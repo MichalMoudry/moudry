@@ -13,6 +13,9 @@ module.exports = function (defaults) {
         DEPRECATE_STORE_EXTENDS_EMBER_OBJECT: false,
       },
     },
+    minifyCSS: {
+      options: { processImport: true }
+    },
     // Add options here
   });
 
