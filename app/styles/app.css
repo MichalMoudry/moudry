@@ -2,3 +2,18 @@
 .separator {
   border-style: dashed;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+b,
+.fs-5 {
+  font-family: 'IBM Plex Sans', monospace;
+}
