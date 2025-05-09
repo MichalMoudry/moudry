@@ -7,10 +7,7 @@
     <div class="container my-4 px-4">
       <div class="row">
         <div class="col-3">
-          <img src="./profile-image.jpg" alt="Michal Moudrý" class="w-100" />
-          <h1>
-            Michal Moudrý
-          </h1>
+          <Organisms::Profilecard/>
         </div>
         <div class="col">
           <Atoms::Card @hasPadding={{true}}>
@@ -24,11 +21,12 @@
 
           <Atoms::Card @hasPadding={{true}} class="mt-4">
             <Molecules::Iconheader @icon="briefcase" @text="Work Experience" />
+            <Organisms::Workexplist/>
           </Atoms::Card>
 
           <Atoms::Card @hasPadding={{true}} class="mt-4">
             <Molecules::Iconheader @icon="monitor" @text="Education" />
-            <Templates::Education/>
+            <Organisms::Education/>
           </Atoms::Card>
 
           <Atoms::Card @hasPadding={{true}} class="mt-4">
@@ -55,7 +53,7 @@
 
           <Atoms::Card @hasPadding={{true}} class="mt-4">
             <Molecules::Iconheader @icon="lightbulb" @text="OSS contributions" />
-            <Templates::Osscontributions/>
+            <Organisms::Osscontributions/>
           </Atoms::Card>
 
           <Atoms::Card @hasPadding={{true}} class="mt-4">
