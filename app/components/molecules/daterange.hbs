@@ -1,0 +1,10 @@
+<p class="mb-0">
+  <Atoms::Icon @icon="calendar" class="me-1 text-primary" />
+  {{@startDate}}
+  -
+  {{#if @endDate}}
+    {{@endDate}}
+  {{else}}
+    <span class="badge text-bg-primary">now</span>
+  {{/if}}
+</p>

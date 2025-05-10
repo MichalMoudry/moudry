@@ -1,0 +1,29 @@
+/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+.separator {
+  border-style: dashed;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans.ttf") format("truetype");
+}
+
+body {
+  font-family: "Open Sans", system-ui, sans-serif !important;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+b,
+.fs-5 {
+  font-family: "IBM Plex Sans", monospace;
+}
