@@ -16,3 +16,6 @@
 
 # broccoli-debug
 /DEBUG/
+
+# MacOS
+.DS_Store
