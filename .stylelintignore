@@ -3,3 +3,7 @@
 
 # compiled output
 /dist/
+
+# libs
+open-iconic-bootstrap.min.css
+bootstrap.min.css

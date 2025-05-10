@@ -14,7 +14,7 @@ module.exports = function (defaults) {
       },
     },
     minifyCSS: {
-      options: { processImport: true }
+      options: { processImport: true },
     },
     // Add options here
   });

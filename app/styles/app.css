@@ -4,17 +4,17 @@
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('/fonts/OpenSans.ttf') format('truetype');
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'IBM Plex Sans';
-  src: url('/fonts/IBMPlexSans.ttf') format('truetype');
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans.ttf") format("truetype");
 }
 
 body {
-  font-family: 'Open Sans', system-ui, sans-serif !important;
+  font-family: "Open Sans", system-ui, sans-serif !important;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,5 +25,5 @@ h2,
 h3,
 b,
 .fs-5 {
-  font-family: 'IBM Plex Sans', monospace;
+  font-family: "IBM Plex Sans", monospace;
 }
