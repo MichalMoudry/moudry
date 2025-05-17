@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   const ENV = {
-    modulePrefix: 'moudry',
+    modulePrefix: 'ember-quickstart',
     environment,
     rootURL: '/',
     locationType: 'history',
